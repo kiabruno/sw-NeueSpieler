@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/sw NeueSpieler</title>
+
+    <link rel="icon" type="image/png" href="sw neuespieler.png">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #090d11;
+            color: white;
+        }
+
+        header {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            padding: 0 30px;
+            background: #0b0f14;
+            border-bottom: 1px solid #26313c;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #8cff00;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .team-box {
+            background: #111923;
+            border: 1px solid #293746;
+            border-radius: 18px;
+            padding: 35px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .welcome {
+            margin-bottom: 35px;
+        }
+
+        .welcome p {
+            color: #9da8b4;
+        }
+
+        .rewards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .reward {
+            background: #121c27;
+            border: 1px solid #2a3744;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .icon {
+            height: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .icon img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            image-rendering: pixelated;
+        }
+
+        .reward h2 {
+            margin: 10px 0;
+        }
+
+        .reward p {
+            color: #aab4bf;
+        }
+
+        .info {
+            margin-top: 25px;
+            padding: 18px;
+            border-radius: 12px;
+            background: #0d2a20;
+            border: 1px solid #075d41;
+            color: #70efb4;
+            font-weight: bold;
+        }
+
+        @media (max-width: 700px) {
+            .rewards {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                margin: 20px auto;
+                padding: 15px;
+            }
+
+            .team-box {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        /sw Neue<span>Spieler</span>
+    </div>
+
+    <nav>
+        <nav class="nav">
+        <a href="index.html">Startseite</a>
+    </nav>
+    
+</header>
+
+
+<div class="container">
+
+    <div id="teamBox" class="team-box">
+
+        <div class="welcome">
+
+            <h1>
+                👋 Willkommen!
+            </h1>
+
+            <p>
+                Hier findest du das was du bei /sw NeueSpieler bekommst!
+            </p>
+
+        </div>
+
+
+        <h2>🎁 Neue Spieler</h2>
+
+        <div class="rewards">
+
+
+            <!-- DIAMANTSCHWERT -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="diaschwert.png"
+                        alt="Diamantschwert"
+                    >
+                </div>
+
+                <h2>
+                    1× Diamantschwert
+                </h2>
+
+            </div>
+
+
+            <!-- DIAMANTSPITZHACKE -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="diapicke.png"
+                        alt="Diamantspitzhacke"
+                    >
+                </div>
+
+                <h2>
+                    1× Diamantspitzhacke
+                </h2>
+
+            </div>
+
+
+            <!-- DIAMANTA XT -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="diaaxt.png"
+                        alt="Diamantaxt"
+                    >
+                </div>
+
+                <h2>
+                    1× Diamantaxt
+                </h2>
+
+            </div>
+
+
+            <!-- DIAMANTSCHAUFEL -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="diaschaufel.png"
+                        alt="Diamantschaufel"
+                    >
+                </div>
+
+                <h2>
+                    1× Diamantschaufel
+                </h2>
+
+            </div>
+
+
+            <!-- DIAMANT -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="diamand.png"
+                        alt="Diamant"
+                    >
+                </div>
+
+                <h2>
+                    5× Diamant
+                </h2>
+
+            </div>
+
+
+            <!-- HOLZ -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="holz.png"
+                        alt="Holz"
+                    >
+                </div>
+
+                <h2>
+                    64× Holz
+                </h2>
+
+            </div>
+
+
+            <!-- STEAK -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="steak.png"
+                        alt="Steak"
+                    >
+                </div>
+
+                <h2>
+                    64× Steak
+                </h2>
+
+            </div>
+
+
+            <!-- ERDE -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="erde.png"
+                        alt="Erde"
+                    >
+                </div>
+
+                <h2>
+                    64× Erde
+                </h2>
+
+            </div>
+
+
+            <!-- STEIN -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="stein.png"
+                        alt="Stein"
+                    >
+                </div>
+
+                <h2>
+                    64× Steine
+                </h2>
+
+            </div>
+
+
+            <!-- PFEILE -->
+
+            <div class="reward">
+
+                <div class="icon">
+                    <img
+                        src="pfeil.png"
+                        alt="Pfeile"
+                    >
+                </div>
+
+                <h2>
+                    64× Pfeile
+                </h2>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="info">
+            ✓ Jeder neue Spieler erhält:
+            1x Diamantschwert,
+            1x Diamantspitzhacke,
+            1x Diamantaxt,
+            1x Diamantschaufel,
+            5x Diamanten,
+            64x Holz,
+            64x Steak,
+            64x Erde,
+            64x Stein und
+            64x Pfeile.
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
